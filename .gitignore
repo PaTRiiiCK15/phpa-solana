@@ -6,3 +6,10 @@ node_modules
 test-ledger
 .yarn
 .surfpool
+
+# Polygon secrets - never commit
+polygon/.env
+polygon/*.key
+polygon/node_modules/
+polygon/artifacts/
+polygon/cache/
