@@ -6,12 +6,12 @@ skip_local_validator = true
 resolution = true
 skip-lint = false
 
-[programs.localnet]
+[programs.devnet]
 phpa_solana = "8PsEGMMHa76MzM2fXGFSt1x8fic5RcAza5cjLV6NCDd4"
 
 [provider]
-cluster = "localnet"
-wallet = "~/.config/solana/id.json"
+cluster = "devnet"
+wallet = "/Users/yujiwakabayashi/solana/phpa-deploy-keypair.json"
 
 [scripts]
 test = "cargo test"
